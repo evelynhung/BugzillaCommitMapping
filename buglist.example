@@ -1,0 +1,704 @@
+{
+   "bugs" : [
+      {
+         "id" : 1123183,
+         "status" : "RESOLVED",
+         "summary" : "[Stingray][Demo] Receiver app for video sharing"
+      },
+      {
+         "id" : 1126666,
+         "status" : "RESOLVED",
+         "summary" : "[Stingray][demo] handle remote connection at smart-system"
+      },
+      {
+         "id" : 1127749,
+         "status" : "RESOLVED",
+         "summary" : "[Stingray][demo] fling-player should show itself while app is opened."
+      },
+      {
+         "id" : 1128384,
+         "status" : "RESOLVED",
+         "summary" : "[Stingray][demo] fling only supports string format message and shouldn't use addEventListener"
+      },
+      {
+         "id" : 1129807,
+         "status" : "RESOLVED",
+         "summary" : "[Stingray][demo] hide and release video while visibility is hidden"
+      },
+      {
+         "id" : 1131447,
+         "status" : "RESOLVED",
+         "summary" : "[Stingray][demo] apply visual to fling receiver"
+      },
+      {
+         "id" : 1131958,
+         "status" : "RESOLVED",
+         "summary" : "[Stingray][System] App under home shouldn't be focused when launching with stayBackground."
+      },
+      {
+         "id" : 1132324,
+         "status" : "RESOLVED",
+         "summary" : "[Stingray][System] Re-launch application correctly for presentation API"
+      },
+      {
+         "id" : 1138870,
+         "status" : "RESOLVED",
+         "summary" : "[Stingray] Move content of tv_shared folder to shared folder"
+      },
+      {
+         "id" : 1139731,
+         "status" : "RESOLVED",
+         "summary" : "[Stingray] Use bower to manage evt.js"
+      },
+      {
+         "id" : 1139773,
+         "status" : "RESOLVED",
+         "summary" : "[Stingray] Use bower to manage smart-components"
+      },
+      {
+         "id" : 1140955,
+         "status" : "RESOLVED",
+         "summary" : "[Stingray][Component] Move smart-button to gaia-components repository"
+      },
+      {
+         "id" : 1147759,
+         "status" : "RESOLVED",
+         "summary" : "[Stingray] Typo in deserialize() of Application"
+      },
+      {
+         "id" : 1191770,
+         "status" : "RESOLVED",
+         "summary" : "Add a way to preprocess apps to enable/disable Firefox Sync at build time"
+      },
+      {
+         "id" : 1191773,
+         "status" : "RESOLVED",
+         "summary" : "Read-only History data adapter"
+      },
+      {
+         "id" : 1191776,
+         "status" : "RESOLVED",
+         "summary" : "Crypto library for Syncto client"
+      },
+      {
+         "id" : 1194090,
+         "status" : "RESOLVED",
+         "summary" : "[browser] Firefox Account sign in page"
+      },
+      {
+         "id" : 1194091,
+         "status" : "RESOLVED",
+         "summary" : "[browser] Firefox Account sync bookmark"
+      },
+      {
+         "id" : 1194092,
+         "status" : "RESOLVED",
+         "summary" : "[browser] Firefox Account sync history"
+      },
+      {
+         "id" : 1194096,
+         "status" : "RESOLVED",
+         "summary" : "[browser] Firefox Account sync settings page"
+      },
+      {
+         "id" : 1194098,
+         "status" : "RESOLVED",
+         "summary" : "[browser] Implement Firefox Account verification email resend"
+      },
+      {
+         "id" : 1194104,
+         "status" : "RESOLVED",
+         "summary" : "[browser] Disconnect Firefox Account"
+      },
+      {
+         "id" : 1196096,
+         "status" : "RESOLVED",
+         "summary" : "SyncManager in System app."
+      },
+      {
+         "id" : 1196232,
+         "status" : "RESOLVED",
+         "summary" : "Empty Synchronizer app"
+      },
+      {
+         "id" : 1196239,
+         "status" : "RESOLVED",
+         "summary" : "Sync engine for sync app"
+      },
+      {
+         "id" : 1202360,
+         "status" : "RESOLVED",
+         "summary" : "Bring Firefox Account handling modules back to TV system"
+      },
+      {
+         "id" : 1202361,
+         "status" : "RESOLVED",
+         "summary" : "[Stingray][fling-player][TV][2.5] (TV side) TV to receive video casted from Fennec"
+      },
+      {
+         "id" : 1202364,
+         "status" : "RESOLVED",
+         "summary" : "[Stingray]Cast webpage to TV (receiver side)"
+      },
+      {
+         "id" : 1202376,
+         "status" : "RESOLVED",
+         "summary" : "[browser] Implement Bookmark folder navigation in TV"
+      },
+      {
+         "id" : 1202382,
+         "status" : "RESOLVED",
+         "summary" : "Read-only Bookmarks data adapter"
+      },
+      {
+         "id" : 1202383,
+         "status" : "RESOLVED",
+         "summary" : "Use build time preprocessor to enable/disable Sync on System"
+      },
+      {
+         "id" : 1202627,
+         "status" : "RESOLVED",
+         "summary" : "Use Kinto.js dbPrefix option to avoid data clashes between accounts"
+      },
+      {
+         "id" : 1203045,
+         "status" : "RESOLVED",
+         "summary" : "[TV 2.5] Dispatch input messages via mozInputMethod API in server side"
+      },
+      {
+         "id" : 1203853,
+         "status" : "RESOLVED",
+         "summary" : "Provide a QR code on the remote control app on TV"
+      },
+      {
+         "id" : 1203898,
+         "status" : "RESOLVED",
+         "summary" : "[browser] Re-skin Firefox Account sign in process for TV"
+      },
+      {
+         "id" : 1204432,
+         "status" : "RESOLVED",
+         "summary" : "Use LazyLoader in Sync app"
+      },
+      {
+         "id" : 1204759,
+         "status" : "RESOLVED",
+         "summary" : "Back port app usage metrics to TV System"
+      },
+      {
+         "id" : 1204827,
+         "status" : "RESOLVED",
+         "summary" : "Generate xClientState inside SyncEngine"
+      },
+      {
+         "id" : 1205292,
+         "status" : "RESOLVED",
+         "summary" : "Disallow new sync users"
+      },
+      {
+         "id" : 1205933,
+         "status" : "RESOLVED",
+         "summary" : "Fix UTF-8 StringConversion for decrypting or encrypting payload from FxSync in SyncEngine."
+      },
+      {
+         "id" : 1206621,
+         "status" : "RESOLVED",
+         "summary" : "Merge AudioChannelManager to TV System App"
+      },
+      {
+         "id" : 1206641,
+         "status" : "RESOLVED",
+         "summary" : "Merge BaseModule to TV System App"
+      },
+      {
+         "id" : 1206989,
+         "status" : "RESOLVED",
+         "summary" : "[browser] adding a Pocket link on TV browser"
+      },
+      {
+         "id" : 1207526,
+         "status" : "RESOLVED",
+         "summary" : "[browser] add pocket shortcut in app deck"
+      },
+      {
+         "id" : 1207995,
+         "status" : "RESOLVED",
+         "summary" : "[TV 2.5] Provide remote control service current control mode"
+      },
+      {
+         "id" : 1208003,
+         "status" : "RESOLVED",
+         "summary" : "[TV 2.5] Implement the functionalities of the TV remote control app"
+      },
+      {
+         "id" : 1208392,
+         "status" : "RESOLVED",
+         "summary" : "[Stingray][system]Launch app for presentation API connection, align to latest request format."
+      },
+      {
+         "id" : 1209897,
+         "status" : "RESOLVED",
+         "summary" : "DataAdapter#handleConflict should return a Promise"
+      },
+      {
+         "id" : 1210694,
+         "status" : "RESOLVED",
+         "summary" : "[Stingray][fling-player][TV][2.5] Require control panel functions"
+      },
+      {
+         "id" : 1210697,
+         "status" : "RESOLVED",
+         "summary" : "[smart-system] Add SyncManager and SyncStateMachine"
+      },
+      {
+         "id" : 1210698,
+         "status" : "RESOLVED",
+         "summary" : "Add Sync app into TV build"
+      },
+      {
+         "id" : 1210700,
+         "status" : "RESOLVED",
+         "summary" : "[Stingray][fling-player][TV][2.5] Fling player control panel should hide and show based on user's key input"
+      },
+      {
+         "id" : 1210702,
+         "status" : "RESOLVED",
+         "summary" : "[Stingray][fling-player][TV][2.5]The Fling player visual spec implementation"
+      },
+      {
+         "id" : 1210725,
+         "status" : "RESOLVED",
+         "summary" : "Set proper audience in SyncManager.getAssertion."
+      },
+      {
+         "id" : 1210902,
+         "status" : "RESOLVED",
+         "summary" : "Sync app should close itself after completing a sync request."
+      },
+      {
+         "id" : 1211349,
+         "status" : "RESOLVED",
+         "summary" : "[TV 2.5][Browser] Web page snapshot doesn't fill the entire card"
+      },
+      {
+         "id" : 1211367,
+         "status" : "RESOLVED",
+         "summary" : "Add getAssertion and getKeys to Firefox Accounts client."
+      },
+      {
+         "id" : 1211376,
+         "status" : "RESOLVED",
+         "summary" : "[smart-system] Remove getAccount(s) hack"
+      },
+      {
+         "id" : 1211469,
+         "status" : "RESOLVED",
+         "summary" : "JavaScript error: resource://gre/modules/RequestSyncService.jsm, line 104: TypeError: this.addRegistration is not a function"
+      },
+      {
+         "id" : 1211508,
+         "status" : "RESOLVED",
+         "summary" : "Set Syncto dev server URL"
+      },
+      {
+         "id" : 1211537,
+         "status" : "RESOLVED",
+         "summary" : "last_modified value is removed from Syncto records"
+      },
+      {
+         "id" : 1211767,
+         "status" : "RESOLVED",
+         "summary" : "[smart-system] Use the same naming for Firefox Account files as the ones in apps/system"
+      },
+      {
+         "id" : 1211833,
+         "status" : "RESOLVED",
+         "summary" : "Merge preprocessing functionality to TV to enable/disable sync"
+      },
+      {
+         "id" : 1212187,
+         "status" : "RESOLVED",
+         "summary" : "Update browser IndexedDB to adapt synced data from bookmarks datastores"
+      },
+      {
+         "id" : 1212394,
+         "status" : "RESOLVED",
+         "summary" : "Handle offline error when trying to enable Sync"
+      },
+      {
+         "id" : 1212403,
+         "status" : "RESOLVED",
+         "summary" : "[TV 2.5] Apply visual spec to the client-side page of TV remote control"
+      },
+      {
+         "id" : 1212407,
+         "status" : "RESOLVED",
+         "summary" : "[TV 2.5] Implement the functionalities of the client-side page of TV remote control"
+      },
+      {
+         "id" : 1212716,
+         "status" : "RESOLVED",
+         "summary" : "Update browser IndexedDB to adapt synced data from places datastores"
+      },
+      {
+         "id" : 1212726,
+         "status" : "RESOLVED",
+         "summary" : "SpatialNavigator should check if an element is navigable before focusing it."
+      },
+      {
+         "id" : 1212776,
+         "status" : "RESOLVED",
+         "summary" : "Enable bookmarks synchronization"
+      },
+      {
+         "id" : 1212874,
+         "status" : "RESOLVED",
+         "summary" : "Losing connection while syncing disables Firefox Sync"
+      },
+      {
+         "id" : 1214188,
+         "status" : "RESOLVED",
+         "summary" : "Call setDataStoreId after merge in history adapter?"
+      },
+      {
+         "id" : 1214193,
+         "status" : "RESOLVED",
+         "summary" : "Deal with unknown incoming tombstones in history data adapter"
+      },
+      {
+         "id" : 1214993,
+         "status" : "RESOLVED",
+         "summary" : "[TV 2.5] \"sendKeyEvent\" doesn't work when sending \"DOM_VK_HOME\" to trigger homescreen"
+      },
+      {
+         "id" : 1215004,
+         "status" : "RESOLVED",
+         "summary" : "[Stingray][fling-player][TV][2.5] (TV side) Should update to the latest Presentation API"
+      },
+      {
+         "id" : 1215075,
+         "status" : "RESOLVED",
+         "summary" : "[TV 2.5] Implement a pairing page on the client-side"
+      },
+      {
+         "id" : 1215076,
+         "status" : "RESOLVED",
+         "summary" : "[TV 2.5] Implement the remote control pairing notification in TV system"
+      },
+      {
+         "id" : 1215086,
+         "status" : "RESOLVED",
+         "summary" : "Support same URL being bookmarked twice"
+      },
+      {
+         "id" : 1215169,
+         "status" : "RESOLVED",
+         "summary" : "Implement key navigation on FxA flow"
+      },
+      {
+         "id" : 1215427,
+         "status" : "RESOLVED",
+         "summary" : "[TV] Only fetch keys when Sync is enabled via \"services.sync.enabled\" pref changed from Gaia"
+      },
+      {
+         "id" : 1215436,
+         "status" : "RESOLVED",
+         "summary" : "Unit test of data adapter for converting data from Places/Bookmarks store to TV IndexedDB"
+      },
+      {
+         "id" : 1215458,
+         "status" : "RESOLVED",
+         "summary" : "Disable bookmarks sync on the phone and enable it on the TV"
+      },
+      {
+         "id" : 1215459,
+         "status" : "RESOLVED",
+         "summary" : "[TV] Show visual feedback and disable 'Sign in' button while enabling Sync"
+      },
+      {
+         "id" : 1215463,
+         "status" : "RESOLVED",
+         "summary" : "[TV] Disallow new sync users"
+      },
+      {
+         "id" : 1215473,
+         "status" : "RESOLVED",
+         "summary" : "Avoid accessing private variable placesStore in history DataAdapter"
+      },
+      {
+         "id" : 1215482,
+         "status" : "RESOLVED",
+         "summary" : "Support new bookmarks_store format in TV"
+      },
+      {
+         "id" : 1215509,
+         "status" : "RESOLVED",
+         "summary" : "Allow signUp in FxAccountsClient to use ?key=true"
+      },
+      {
+         "id" : 1216022,
+         "status" : "RESOLVED",
+         "summary" : "Clear all Bookmark and History records from FxSync when users logout FxAccount in TV Browser."
+      },
+      {
+         "id" : 1216163,
+         "status" : "RESOLVED",
+         "summary" : "Add 'disabling' state"
+      },
+      {
+         "id" : 1216180,
+         "status" : "RESOLVED",
+         "summary" : "[TV] SyncManager does not set the error state properly"
+      },
+      {
+         "id" : 1216451,
+         "status" : "RESOLVED",
+         "summary" : "[TV] Login out from Sync should log the user out from FxA"
+      },
+      {
+         "id" : 1216591,
+         "status" : "RESOLVED",
+         "summary" : "Support IFNDEF on Gaia preprocessor"
+      },
+      {
+         "id" : 1216614,
+         "status" : "RESOLVED",
+         "summary" : "[TV] Add Sync Now option to Sync settings"
+      },
+      {
+         "id" : 1216616,
+         "status" : "RESOLVED",
+         "summary" : "Add ToS and Privacy Note links to Sync settings"
+      },
+      {
+         "id" : 1216645,
+         "status" : "RESOLVED",
+         "summary" : "Sync once on enabled"
+      },
+      {
+         "id" : 1216854,
+         "status" : "RESOLVED",
+         "summary" : "[browser] handle back-space key event in firefox sync process"
+      },
+      {
+         "id" : 1216855,
+         "status" : "RESOLVED",
+         "summary" : "[browser] remove login successful page in firefox account sync flow"
+      },
+      {
+         "id" : 1216878,
+         "status" : "RESOLVED",
+         "summary" : "[browser] export bookmarkList.js as a general list render library in tv"
+      },
+      {
+         "id" : 1216969,
+         "status" : "RESOLVED",
+         "summary" : "[Stingray][Presentation] Align webpage casting agent to latest presentation API spec"
+      },
+      {
+         "id" : 1217340,
+         "status" : "RESOLVED",
+         "summary" : "Handle an empty visits array of history record as a valid case"
+      },
+      {
+         "id" : 1217349,
+         "status" : "RESOLVED",
+         "summary" : "Update bookmark records without updating places"
+      },
+      {
+         "id" : 1217352,
+         "status" : "RESOLVED",
+         "summary" : "Write the first visits record into timestamp for Places IndexedDB"
+      },
+      {
+         "id" : 1217376,
+         "status" : "RESOLVED",
+         "summary" : "[TV] Ask user for confirmation before signing the user out"
+      },
+      {
+         "id" : 1217380,
+         "status" : "RESOLVED",
+         "summary" : "[TV] Ask for Firefox Accounts password before enabling history synchronization"
+      },
+      {
+         "id" : 1217381,
+         "status" : "RESOLVED",
+         "summary" : "Go back to default collection settings on logout"
+      },
+      {
+         "id" : 1217385,
+         "status" : "RESOLVED",
+         "summary" : "Write tests for BrowserDialog deferred actions"
+      },
+      {
+         "id" : 1217710,
+         "status" : "RESOLVED",
+         "summary" : "[TV Browser] Synced bookmark organization is inconsistent between bookmarks from desktop and mobile"
+      },
+      {
+         "id" : 1218288,
+         "status" : "RESOLVED",
+         "summary" : "[TV] Preprocess browser to enable/disable Sync"
+      },
+      {
+         "id" : 1218303,
+         "status" : "RESOLVED",
+         "summary" : "Check history records by time and export maximum size argument to SyncBrowserDB.getHistory"
+      },
+      {
+         "id" : 1218314,
+         "status" : "RESOLVED",
+         "summary" : "Re-skin and animate UI components in the Firefox Account sign in flow"
+      },
+      {
+         "id" : 1218440,
+         "status" : "VERIFIED",
+         "summary" : "[TV] Cannot delete email address on FxA login flow"
+      },
+      {
+         "id" : 1218441,
+         "status" : "RESOLVED",
+         "summary" : "[TV] Back-space key doesn't behave as expected on FxA flow."
+      },
+      {
+         "id" : 1218665,
+         "status" : "RESOLVED",
+         "summary" : "[TV Browser] Removing folder icon of  \"Back to <folder name>\""
+      },
+      {
+         "id" : 1218682,
+         "status" : "RESOLVED",
+         "summary" : "[TV 2.5] Improve the input function in remote control client by one-way sync"
+      },
+      {
+         "id" : 1218724,
+         "status" : "RESOLVED",
+         "summary" : "Refine error UI on TV"
+      },
+      {
+         "id" : 1219108,
+         "status" : "RESOLVED",
+         "summary" : "Export more options to getHistory and getHistoryTimestamp function in SyncBrowserDB"
+      },
+      {
+         "id" : 1219160,
+         "status" : "RESOLVED",
+         "summary" : "Pressing the return key at the enter password phase in fxa login flow should submit the request directly"
+      },
+      {
+         "id" : 1219162,
+         "status" : "RESOLVED",
+         "summary" : "[TV] Bookmarks list is shown with a different order than Desktop or Android"
+      },
+      {
+         "id" : 1219245,
+         "status" : "VERIFIED",
+         "summary" : "[TV Data Sync] 'Forgot your password' link shows activity chooser menu"
+      },
+      {
+         "id" : 1219275,
+         "status" : "RESOLVED",
+         "summary" : "Session is not kept between reboots"
+      },
+      {
+         "id" : 1219542,
+         "status" : "RESOLVED",
+         "summary" : "[Stingray][fling-player] Fix control panel operation issues and add the initial message"
+      },
+      {
+         "id" : 1219575,
+         "status" : "RESOLVED",
+         "summary" : "[browser] fetch favor icon from sync bookmark and history data"
+      },
+      {
+         "id" : 1219576,
+         "status" : "RESOLVED",
+         "summary" : "[TV Browser] Failed to remove the bookmark"
+      },
+      {
+         "id" : 1219609,
+         "status" : "RESOLVED",
+         "summary" : "Change header of bookmarks view from 'Bookmark' to 'Bookmarks'"
+      },
+      {
+         "id" : 1219610,
+         "status" : "RESOLVED",
+         "summary" : "JavaScript error: app://browser.gaiamobile.org/js/settings.js, line 171: TypeError: this.getHomepage is not a function"
+      },
+      {
+         "id" : 1219708,
+         "status" : "RESOLVED",
+         "summary" : "Should not attempt to sync while offline"
+      },
+      {
+         "id" : 1219709,
+         "status" : "RESOLVED",
+         "summary" : "Handle syncing state on TV browser settings and toolbar UI"
+      },
+      {
+         "id" : 1220078,
+         "status" : "RESOLVED",
+         "summary" : "[TV Browser] Please change the color for \"Terms of Service\" and \"Privacy Notice\""
+      },
+      {
+         "id" : 1220089,
+         "status" : "RESOLVED",
+         "summary" : "History collection checkbox enabled although refresh auth didn't succeed"
+      },
+      {
+         "id" : 1220381,
+         "status" : "RESOLVED",
+         "summary" : "[TV][browser] Revise TV pocket menu item from \"https://getpocket.com/\" to \"https://getpocket.com/fxostv\""
+      },
+      {
+         "id" : 1220528,
+         "status" : "RESOLVED",
+         "summary" : "Configure the default build flag FIREFOX_SYNC to ENABLE in v2.5 branch, TV only"
+      },
+      {
+         "id" : 1220541,
+         "status" : "RESOLVED",
+         "summary" : "Require user authentication refresh when the bookmark collection checkbox is changed to true"
+      },
+      {
+         "id" : 1220576,
+         "status" : "RESOLVED",
+         "summary" : "[TV] FTE for Home app"
+      },
+      {
+         "id" : 1220589,
+         "status" : "RESOLVED",
+         "summary" : "[TV] FTE for Pin-to-home context menu button"
+      },
+      {
+         "id" : 1220600,
+         "status" : "RESOLVED",
+         "summary" : "Save user preferences"
+      },
+      {
+         "id" : 1220961,
+         "status" : "RESOLVED",
+         "summary" : "Escape key in the refresh auth screen in the fx account flow doesn't work"
+      },
+      {
+         "id" : 1221420,
+         "status" : "RESOLVED",
+         "summary" : "[TV Browser] Failed to go back to the previous screen after tapping the Back button in \"Inactive Account\" page"
+      },
+      {
+         "id" : 1221472,
+         "status" : "RESOLVED",
+         "summary" : "[TV Browser] Some histories show only URLs with blank title"
+      },
+      {
+         "id" : 1222332,
+         "status" : "RESOLVED",
+         "summary" : "Remove gaia-icons from tv browser"
+      },
+      {
+         "id" : 1222909,
+         "status" : "RESOLVED",
+         "summary" : "Update FTEWizard"
+      }
+   ]
+}
